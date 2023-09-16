@@ -27,6 +27,7 @@
 // hamda osha stringda qatnashgan raqamlarni sonini 
 // return qilsin. Masalan: getDigits("ag1aw5g6") return qilsin 3
 
+
 function getDigits(text){
    let count = 0;
    for (let i = 0; i < text.length; i++) {
@@ -41,12 +42,4 @@ getDigits('ag1aw5g6');
 
 
 
-// const animals_list = ["fox","ant","bird","lion","wolf","deer","bear",
-// "frog","hen","mole","duck","goat","dog","cat","bat","coocl","cow"];
 
-// function findAnimals(txt){
-//   if(animals_list.length => )
-// }
-
-// const javob = findAnimals('bird');
-// console.log('Javob',javob);
