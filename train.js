@@ -1,45 +1,20 @@
-// MODULE packge CORE
+// 📌  C-Task:
 
-// setTimeout(function(){
-//    console.log('ishga tushdi');
-// },5000);
+// Shunday function tuzing, u 2ta string parametr ega bolsin,
+// hamda agar har ikkala string bir hil harflardan iborat
+//  bolsa true aks holda false qaytarsin.
+// MASALAN checkSimilarity("laepp", "apple") true return qiladi.
 
-// let count = 0;
-// setInterval(function(){
-//    console.log("hisob",count);
-//    count ++;
-// },1000);
-
-// const fs = require('fs');
-// const data = fs.readFileSync('./input.txt','utf8');
-// const {networkingInterfaces} = require('os')
-// console.log(data);
-
-// console.log('*************');
-
-// fs.writeFileSync('./input.txt',`${data} \n\t\t By Leo` );
-// const new_data = fs.readFileSync('./input.txt','utf8');
-// console.log(new_data);
-
-
-
-// B-Task: Shunday function tuzing, u 1ta parametr ega bolsin, 
-// hamda osha stringda qatnashgan raqamlarni sonini 
-// return qilsin. Masalan: getDigits("ag1aw5g6") return qilsin 3
-
-
-function getDigits(text){
-   let count = 0;
-   for (let i = 0; i < text.length; i++) {
-      if(Number.isInteger(Number(text[i]))){
-         count = count + 1;
-         
-      }
-   }
-   console.log(count);
-}
-getDigits('ag1aw5g6');
-
-
-
-
+// const list = []
+// checkSimilarity = (text1,text2)=>{
+//    if(text1.length == text2.length) {
+//      for (let i = 0; i < text1.length; i++) {
+//       list.push(text2.includes(text1[i]))
+//      }
+//      return list.includes(false) ? false : true;
+//    }else{
+//       return false;
+//    }
+// }
+// const result = checkSimilarity("laepp","apele");
+// console.log(result);
